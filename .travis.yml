@@ -3,5 +3,6 @@ python:
   - "3.6"
 # command to run tests
 install:
+  - pip install requests
 script:
   - python3 test_calc.py
